@@ -112,18 +112,18 @@ class _BlogDetailsState extends State<BlogDetails> {
                   Text(
                     "Blog Başlığı: ${blogData['title']}",
                     style: const TextStyle(
-                        fontSize: 20, fontWeight: FontWeight.bold),
+                        fontSize: 20, fontWeight: FontWeight.bold, color: Colors.red),
                   ),
                   const SizedBox(height: 10),
                   // Blog içeriğini gösteren kısım.
                   Text("Blog İçeriği: ${blogData['content']}",
                       style: const TextStyle(
-                          fontSize: 15, fontWeight: FontWeight.normal)),
+                          fontSize: 15, fontWeight: FontWeight.w700)),
                   const SizedBox(height: 10),
                   // Blog yazarını gösteren kısım.
                   Text("Blog Yazarı: ${blogData['author']}",
                       style: const TextStyle(
-                          fontSize: 15, fontWeight: FontWeight.normal)),
+                          fontSize: 15, fontWeight: FontWeight.w600, color: Colors.green)),
                 ],
               ),
             ),

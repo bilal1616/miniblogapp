@@ -123,7 +123,7 @@ class _BlogDetailsState extends State<BlogDetails> {
                   // Blog yazarını gösteren kısım.
                   Text("Blog Yazarı: ${blogData['author']}",
                       style: const TextStyle(
-                          fontSize: 15, fontWeight: FontWeight.w600, color: Colors.green)),
+                          fontSize: 15, fontWeight: FontWeight.w600, color: Colors.blue)),
                 ],
               ),
             ),
